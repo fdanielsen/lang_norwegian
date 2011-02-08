@@ -1,10 +1,12 @@
 # Language: Norwegian
 
-Official Norwegian translation for [Symphony](http://www.symphony-cms.com).  
+Official Norwegian translation for [Symphony](http://www.symphony-cms.com).
+This is an alpha release of the localisation for the upcoming Symphony 2.2.
+Please use version 1.0 (see tags) of this extension for Symphony 2.0 and 2.1.
 
-- Version: 1.0
+- Version: 1.1a
 - Date: 8th February 2011
-- Requirements: Symphony 2.0.7 or greater
+- Requirements: Symphony 2.2 or greater
 - Author: Frode Danielsen (frode@danielsen.net)
 - GitHub Repository: <http://github.com/fdanielsen/lang_norwegian>
 
