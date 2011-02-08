@@ -9,7 +9,7 @@
 			return array(
 				'name' => 'Language: Norsk bokmål',
 				'type' => 'Localisation',
-				'version' => '1.0',
+				'version' => '1.1a',
 				'release-date' => '2011-02-08',
 				'author' => array(
 					'name' => 'Frode Danielsen',
@@ -26,7 +26,8 @@
 					'2.0.5' => false,
 					'2.0.6' => false,
 					'2.0.7' => true,
-					'2.1.0' => true
+					'2.1.0' => true,
+					'2.2' => true
 				)
 			);
 		}
