@@ -7,7 +7,7 @@
 			'email' => 'frode@danielsen.net',
 			'website' => 'http://frode.danielsen.net/'
 		),
-		'release-date' => '2011-02-08'
+		'release-date' => '2012-01-02'
 	);
 
 	/**
@@ -39,8 +39,17 @@
 		'%s Checked by default' => 
 		'%s Avkrysset som standard',
 
+		'%s Display field’s value in entries table' => 
+		'%s Vis feltets verdi i opplisting av innlegg',
+
+		'%s Display relationship in linked sections' => 
+		'%s Vis relasjonen i tilknyttede seksjoner',
+
 		'%s HTML-encode text' => 
 		'%s HTML-enkodet tekst',
+
+		'%s Hide this section from the back-end menu' => 
+		'%s Skjul denne seksjonen fra menyen i admin',
 
 		'%s Include a count of entries in associated sections' => 
 		'%s Inkluder antallet innlegg i tilknyttede seksjoner',
@@ -48,11 +57,20 @@
 		'%s Make this a required field' => 
 		'%s Gjør dette til et påkrevd felt',
 
+		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
+		'%s Fordel resultater over flere sider med inntil %s oppføringer per side. Returner side %s',
+
 		'%s Redirect to 404 page when no results are found' => 
 		'%s Videresend til en 404-side når ingen resultater ble funnet',
 
 		'%s Select current user by default' => 
 		'%s Velg innlogget bruker som standard',
+
+		'%s has timed out' => 
+		'%s har endt med tidsavbrudd',
+
+		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use false for no encoding.' => 
+		'%s er ikke en støttet type enkoding. Vennligst bruk «quoted-printable» eller «base64». Du kan også bruke «false» for ingen enkoding.',
 
 		'&larr; Previous' => 
 		'&larr; Forrige',
@@ -165,23 +183,23 @@
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
 		'En eksisterende <code>/workspace</code>-mappe ble funnet. Symphony vil bruke denne som arbeidsområde.',
 
+		'An extension requires updating. <a href="%s">View Extensions</a>' => 
+		'Et tillegg trenger en oppdatering. <a href="%s">Vis tillegg</a>',
+
 		'An index type page already exists.' => 
 		'En side av typen «index» eksisterer allerede.',
 
 		'An unknown database occurred while attempting to create the section.' => 
 		'Det oppstod en ukjent databasefeil under forsøk på å opprette seksjonen.',
 
+		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
+		'Et oppdateringsskript har blitt funnet i din installasjon. <a href="%s">Vis oppdateringen</a>',
+
 		'Apply' => 
 		'Utfør',
 
-		'Are you sure you want to {$action} {$count} items?' => 
-		'Er du sikker på at du ønsker å {$action} {$count}?',
-
-		'Are you sure you want to {$action} {$name}?' => 
-		'Er du sikker på at du ønsker å {$action} {$name}?',
-
-		'Are you sure you want to {$action}?' => 
-		'Er du sikker på at du ønsker å {$action}?',
+		'As requested, here is your new Symphony Author Password for ' => 
+		'Som forespurt, her er ditt nye Symphony forfatter-passord for ',
 
 		'At least one source must be specified, dynamic or static.' => 
 		'Minst én dynamisk eller statisk kilde må være valgt.',
@@ -191,6 +209,15 @@
 
 		'Author ID' => 
 		'Forfatter-ID',
+
+		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Forfatteren ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle forfattere</a>',
+
+		'Author not found' => 
+		'Forfatteren ble ikke funnet',
+
+		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
+		'Forfatteren ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle forfattere</a>',
 
 		'Authors' => 
 		'Forfattere',
@@ -219,6 +246,12 @@
 		'Bugs' => 
 		'Insekter',
 
+		'Can not call AUTH again.' => 
+		'Kan ikke sende AUTH igjen.',
+
+		'Can not call HELO on existing session' => 
+		'Kan ikke sende HELO i den eksisterende økten',
+
 		'Cats' => 
 		'Katter',
 
@@ -240,6 +273,9 @@
 		'Cold' => 
 		'Kald',
 
+		'Collapse all' => 
+		'Klapp sammen alle',
+
 		'Components' => 
 		'Komponenter',
 
@@ -249,11 +285,26 @@
 		'Confirm Password' => 
 		'Bekreft passord',
 
+		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Datakilden du etterspurte, <code>%s</code>, ble ikke funnet. Om datakilden ble understøttet av et tillegg, sørg for at dette er installert og aktivert.',
+
+		'Could not find Event <code>%s</code>. If the Event was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Hendelsen du etterspurte, <code>%s</code>, ble ikke funnet. Om hendelsen er understøttet av et tillegg, sørg for at dette er installert og aktivert.',
+
 		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
 		'Feltet du etterspurte, <code>%1$s</code>, ble ikke funnet ved <code>%2$s</code>. Om feltet er understøttet av et tillegg, sørg for at dette er installert og aktivert.',
 
+		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extension, ensure that it is installed, and enabled.' => 
+		'Tekstformatereren du etterspurte, <code>%s</code>, ble ikke funnet. Om tekstformatereren er understøttet av et tillegg, sørg for at dette er installert og aktivert.',
+
 		'Could not find extension at location %s' => 
 		'Klarte ikke finne tillegget ved %s',
+
+		'Could not read from %s' => 
+		'Klarte ikke lese fra %s',
+
+		'Could not send request: %s' => 
+		'Klarte ikke sende forespørselen: %s',
 
 		'Create Author' => 
 		'Opprett forfatter',
@@ -318,8 +369,14 @@
 		'Data retrieved from the Symphony support server is decompressed with the ZLib compression library.' => 
 		'Data som lastes ned fra Symphonys server blir pakket ut med komprimeringsbiblioteket ZLib.',
 
+		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Datakilden ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle datakilder</a>',
+
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
 		'Resultatgruppering for datakilden er ikke støttet av feltet <code>%s</code>',
+
+		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
+		'Datakilden ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle datakilder</a>',
 
 		'Database' => 
 		'Database',
@@ -339,8 +396,8 @@
 		'Date and Time' => 
 		'Dato og tid',
 
-		'Dear <!-- RECIPIENT NAME -->,' => 
-		'Kjære <!-- RECIPIENT NAME -->,',
+		'Default Area' => 
+		'Standard område',
 
 		'Delete' => 
 		'Slett',
@@ -376,7 +433,7 @@
 		'Destinasjonsmappe',
 
 		'Destination folder, <code>%s</code>, is not writable. Please check permissions.' => 
-		'Destinasjonsmappen, <code>%s</code>, kan ikke skrives til. Vennligst kontroller rettighetene.',
+		'Destinasjonsmappen, <code>%s</code>, kan ikke skrives til. Vennligst sjekk rettighetene.',
 
 		'Developer' => 
 		'Utvikler',
@@ -390,8 +447,14 @@
 		'Disable' => 
 		'Deaktiver',
 
+		'Disabled' => 
+		'Deaktivert',
+
 		'Dogs' => 
 		'Hunder',
+
+		'Dynamic Values' => 
+		'Dynamiske verdier',
 
 		'Dynamic XML' => 
 		'Dynamisk XML',
@@ -423,8 +486,20 @@
 		'Email Address' => 
 		'E-postadresse',
 
-		'Enable' => 
-		'Aktiver',
+		'Email subject cannot be empty.' => 
+		'E-postemnet kan ikke være tomt.',
+
+		'Email: SMTP' => 
+		'E-post: SMTP',
+
+		'Email: Sendmail' => 
+		'E-post: Sendmail',
+
+		'Enable to install %s' => 
+		'Aktiver for å installere %s',
+
+		'Enable to update to %s' => 
+		'Aktiver for å oppdatere til %s',
 
 		'Enabled' => 
 		'Aktivert',
@@ -441,6 +516,9 @@
 		'Entry [created | edited] successfully.' => 
 		'Innlegg ble vellykket [opprettet | endret].',
 
+		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Innlegget ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle innlegg</a>',
+
 		'Entry created successfully.' => 
 		'Innlegget ble vellykket opprettet.',
 
@@ -453,6 +531,9 @@
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
 		'Begrensning for innlegget var ikke av en gyldig type. Tekst eller heltall forventet.',
 
+		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
+		'Innlegget ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle innlegg</a>',
+
 		'Environment Settings' => 
 		'Miljø-innstillinger',
 
@@ -461,6 +542,12 @@
 
 		'Essentials' => 
 		'Nødvendigheter',
+
+		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Hendelsen ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle hendelser</a>',
+
+		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
+		'Hendelsen ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle hendelser</a>',
 
 		'Events' => 
 		'Hendelser',
@@ -474,6 +561,9 @@
 		'Existing Values' => 
 		'Eksisterende verdier',
 
+		'Expand all' => 
+		'Ekspander alle',
+
 		'Extensions' => 
 		'Tillegg',
 
@@ -485,6 +575,9 @@
 
 		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
 		'Lagring av hendelsen i <code>%s</code> mislyktes. Vennligst sjekk fil-rettigheter.',
+
+		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
+		'Om resultater ikke fordeles over flere sider kan det gå utover ytelsen hvis antallet oppføringer er svært høyt.',
 
 		'Fields' => 
 		'Felt',
@@ -515,6 +608,9 @@
 
 		'Filter Navigation by' => 
 		'Filtrer navigasjon etter',
+
+		'Filter Options' => 
+		'Filtervalg',
 
 		'Filter Results' => 
 		'Filtrer resultater',
@@ -567,14 +663,17 @@
 		'Installation Failure' => 
 		'Installasjonen feilet',
 
+		'Installed Version' => 
+		'Installert versjon',
+
 		'Invalid Entry ID specified. Could not create Entry object.' => 
 		'Ugyldig ID for innlegg oppgitt. Kunne ikke opprette objekt for innlegget.',
 
 		'Invalid element name. Must be valid QName.' => 
 		'Ugyldig elementnavn. Må være et gyldige QName.',
 
-		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Det virker som du forsøker opprette et innlegg. Kanskje du ønsker opprette felt først? <a href="%s">Klikk her for å opprette felt</a>.',
+		'Invalid timezone \'{$timezone}\'' => 
+		'Ugyldig tidssone \'{$timezone}\'',
 
 		'It will expire in 2 hours. If you did not ask for a new password, please disregard this email.' => 
 		'Lenken vil utløpe om 2 timer. Vennligst se bort fra denne e-posten om du ikke etterspurte nytt passord.',
@@ -618,6 +717,9 @@
 		'Logout' => 
 		'Logg ut',
 
+		'Long Description' => 
+		'Utvidet beskrivelse',
+
 		'Lumpy' => 
 		'Klumpete',
 
@@ -651,6 +753,18 @@
 		'Must be greater than zero' => 
 		'Må være større enn null',
 
+		'Must call EHLO (or HELO) before calling AUTH' => 
+		'Må sende EHLO (eller HELO) før AUTH sendes',
+
+		'Must call EHLO (or HELO) before calling MAIL' => 
+		'Må sende EHLO (eller HELO) før MAIL blir sendt',
+
+		'Must call MAIL before calling RCPT' => 
+		'Må sende MAIL før RCPT',
+
+		'Must call RCPT before calling DATA' => 
+		'Må sende RCPT før DATA',
+
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 or above' => 
 		'My<abbr title="Structured Query Language">SQL</abbr> 4.1 eller nyere',
 
@@ -665,6 +779,9 @@
 
 		'Namespace' => 
 		'Navnerom',
+
+		'Namespace Declarations' => 
+		'Deklarasjoner av navnerom',
 
 		'Navigation' => 
 		'Navigasjon',
@@ -684,6 +801,12 @@
 		'No' => 
 		'Nei',
 
+		'No attachments or body text was set. Can not send empty email.' => 
+		'Ingen vedlegge eller innholdstekst var satt. Kan ikke sende en tom e-post.',
+
+		'No connection has been established to %s' => 
+		'Ingen tilkobling ble opprettet mot %S',
+
 		'No records found.' => 
 		'Ingen oppføringer funnet.',
 
@@ -693,14 +816,14 @@
 		'No suitable engine object found' => 
 		'Ingen passende objekt for prosessering ble funnet. ',
 
-		'No valid recipients found. Check send-email[recipient] field.' => 
-		'Ingen gyldige mottakere ble funnet. Kontroller send-email[recipient]-feltet.',
-
 		'None' => 
 		'Ingen',
 
 		'None found.' => 
 		'Ingen funnet.',
+
+		'Not Installed' => 
+		'Ikke installert',
 
 		'Old Password' => 
 		'Gammelt passord',
@@ -710,6 +833,9 @@
 
 		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
 		'En eller flere sider kunne ikke slettes. Vennligst sjekk rettigheter for <code>/workspace/pages</code>.',
+
+		'Only one call to MAIL may be made at a time.' => 
+		'Kan kun sende én MAIL om gangen.',
 
 		'Optional' => 
 		'Valgritt',
@@ -747,6 +873,12 @@
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
 		'Siden kunne ikke skrives til fil. Vennligst sjekk fil-rettighetene for <code>/workspace/pages</code>.',
 
+		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Siden ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle sider</a>',
+
+		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
+		'Siden ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle sider</a>',
+
 		'Pages' => 
 		'Sider',
 
@@ -761,6 +893,9 @@
 
 		'Password is required' => 
 		'Passord er påkrevd',
+
+		'Password reset. Check your email' => 
+		'Passordet ble nullstilt. Sjekk din e-post',
 
 		'Passwords did not match' => 
 		'Passordene stemte ikke overens',
@@ -792,14 +927,17 @@
 		'Port' => 
 		'Port',
 
+		'Predefined Values' => 
+		'Forhåndsdefinerte verdier',
+
 		'Preferences' => 
 		'Innstillinger',
 
 		'Preferences saved.' => 
 		'Innstillingene ble lagret.',
 
-		'Recipient username was invalid' => 
-		'Brukernavn for mottaker er ugyldig',
+		'Recipient email address cannot be empty.' => 
+		'Mottakeradressen kan ikke være tom.',
 
 		'Region' => 
 		'Region',
@@ -816,17 +954,35 @@
 		'Reordering was unsuccessful.' => 
 		'Endring av rekkefølge var vellykket.',
 
+		'Reply-To Email Address can not contain carriage return or newlines.' => 
+		'Svaradressen kan ikke inneholde linjeskift.',
+
+		'Reply-To Name can not contain carriage return or newlines.' => 
+		'Svarnavn kan ikke inneholde linjeskift.',
+
+		'Required URL Parameter' => 
+		'Påkrevd URL-parameter',
+
 		'Root Path' => 
 		'Sti til rotnivå',
 
 		'Round' => 
 		'Rund',
 
+		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
+		'Kjører oppdatereren for å oppdatere Symphony til %s. <a href="%s">Vis oppdateringen</a>',
+
 		'Save Changes' => 
 		'Lagre endringer',
 
+		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Seksjonen ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle seksjoner</a>',
+
 		'Section is invalid' => 
 		'Seksjonen er ugyldig',
+
+		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
+		'Seksjonen ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle seksjoner</a>',
 
 		'Sections' => 
 		'Seksjoner',
@@ -837,8 +993,20 @@
 		'Send Email' => 
 		'Send e-post',
 
+		'Send Notification Email' => 
+		'Send e-post med varsel',
+
+		'Sender Email Address can not contain carriage return or newlines.' => 
+		'Avsenderadressen kan ikke inneholde linjeskift.',
+
+		'Sender email address cannot be empty.' => 
+		'Avsenderadressen kan ikke være tom.',
+
 		'Set %s' => 
 		'Sett %s',
+
+		'Set navigation group' => 
+		'Sett navigasjonsgruppe',
 
 		'Sidebar' => 
 		'Sidekolonne',
@@ -903,6 +1071,9 @@
 		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
 		'Symphony har ikke skriverettigheter til den midlertidige <code>htaccess</code>-filen. Vennligst endre rettighetene for filen slik at den kan skrives til og filnavn endres.',
 
+		'Symphony is also available in other languages' => 
+		'Symphony er også tilgjengelig på andre språk',
+
 		'Symphony is ready to be installed at the following location.' => 
 		'Symphony er klar til å bli installert på følgende sted.',
 
@@ -920,12 +1091,6 @@
 
 		'Symphony needs the following requirements satisfied before installation can proceed.' => 
 		'Symphony trenger følgende krav oppfylt før installasjonen kan fortsette.',
-
-		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
-		'Symphony bruker vanligvis UTF-8-tegnsettet for databaseoppføringer. Med kompatibilitets-modus aktivert vil Symphony bruke standard tegnsett for databasen i stedet.',
-
-		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
-		'Symphony krever <code>MySQL 4.1</code> eller nyere, men kun versjon <code>%s</code> ble funnet. Installasjonen kan ikke fortsette før dette kravet er oppfylt.',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work. This requirement must be met before installation can proceed.' => 
 		'Symphony krever <code>MySQL 4.1</code> eller nyere. Installasjonen kan ikke fortsette før dette kravet er oppfylt.',
@@ -990,17 +1155,29 @@
 		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
 		'Konfigurasjonsfilen for Symphony, <code>/manifest/config.php</code>, kan ikke skrives til. Du vil ikke kunne lagre endringer av innstillingene.',
 
+		'The author profile you requested does not exist.' => 
+		'Forfatterprofilen du forespurte eksisterer ikke.',
+
 		'The date specified in \'%s\' is invalid.' => 
 		'Den oppgitte datoen i «%s» er ugyldig.',
 
 		'The destination directory, <code>%s</code>, does not exist.' => 
 		'Destinasjonsmappen, <code>%s</code>, eksisterer ikke.',
 
+		'The email address "%s" is invalid.' => 
+		'E-postadressen «%s» er ugyldig.',
+
 		'The entry you are looking for could not be found.' => 
 		'Innlegget du etterspurte ble ikke funnet.',
 
 		'The field \'%s\', provided by the Extension \'%s\', is currently in use. Please remove it from your sections prior to uninstalling or disabling.' => 
 		'Feltet «%s», understøttet av tillegget «%s», er i bruk for øyeblikket. Vennligst fjern det fra dine seksjoner før du avinstallerer eller deaktiverer.',
+
+		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
+		'Filen som ble lastet opp er ikke lenger tilgjengelig. Vennligst kontroller at den eksister og er mulig å lese.',
+
+		'The following is an example of what is returned if any options return an error:' => 
+		'Følgende er et eksempel på hva som returneres hvis noen av valgene gir en feilmelding:',
 
 		'The page you requested does not exist.' => 
 		'Siden du etterspurte eksisterer ikke.',
@@ -1010,6 +1187,9 @@
 
 		'The section associated with the data source <code>%s</code> could not be found.' => 
 		'Seksjonen som er knyttet til datakilden <code>%s</code> ble ikke funnet.',
+
+		'The selected language could not be found. Using default English dictionary instead.' => 
+		'Det valgte språket ble ikke funnet. Bruker standard engelsk ordbok i stedet.',
 
 		'The supplied password was rejected. <a href="%s">Retrieve password?</a>' => 
 		'Passordet du oppga ble avvist. <a href="%s">Gjenfinne passordet?</a>',
@@ -1026,6 +1206,9 @@
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
 		'Kunne ikke finne din brukerkonto. Vennligst sjekk at du har fylt inn riktig e-postadresse.',
 
+		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
+		'Det oppstod et problem ved forsøk på å koble til databasen. Vennligst kontroller at alle detaljer for tilkobling er korrekte. Følgende feilmelding ble returnert.',
+
 		'There was an error while trying to upload the file <code>%1$s</code> to the target directory <code>%2$s</code>.' => 
 		'Det oppstod en feil under opplasting av filen <code>%1$s</code> til destinasjonsmappen <code>%2$s</code>.',
 
@@ -1035,8 +1218,8 @@
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
 		'Dette dokumentet er ikke velformet. Følgende feil ble returnert: <code>%s</code>',
 
-		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
-		'Dette er en e-post for å informere deg om at et innlegg ble opprettet i %1$s-seksjonen. Du kan redigere dette innlegget ved å gå til: %2$s',
+		'This event has been customised and cannot be viewed from Symphony.' => 
+		'Denne hendelsen har blitt tilpasset og kan ikke vises inne i Symphony.',
 
 		'This is a required field' => 
 		'Dette feltet er påkrevd',
@@ -1086,8 +1269,14 @@
 		'URL Parameters' => 
 		'URL-parametre',
 
+		'Unable to connect via TLS' => 
+		'Kan ikke koble til med TLS',
+
 		'Unable to remove file - %s' => 
 		'Klarte ikke slette filen - %s',
+
+		'Unable to set timeout.' => 
+		'Klarte ikke sett tidsavbrudd.',
 
 		'Uninstall' => 
 		'Avinstaller',
@@ -1104,6 +1293,9 @@
 		'Unknown errors where encountered when saving.' => 
 		'Det oppstod ukjente feil under lagring.',
 
+		'Unsupported SSL type' => 
+		'SSL-typen er ikke støttet',
+
 		'Untitled' => 
 		'Uten navn',
 
@@ -1119,6 +1311,9 @@
 		'Uploading \'%s\' failed. File upload stopped by extension.' => 
 		'Opplasting av «%s» feilet. Filopplastingen ble avbrytt av et tillegg.',
 
+		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
+		'Ved vellykket lagring av oppføringen under hendelsen vil dette valget sende en e-post med data fra skjemaet til den ønskede mottakeren. <b>Fungerer ikke med "Tillat flere" per nå.</b> Følgende felt blir gjenkjent:',
+
 		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
 		'Bruk <code>{$param}</code>-syntaks for å filtrere etter sideparametre.',
 
@@ -1133,9 +1328,6 @@
 
 		'Use an XPath expression to select which elements from the source XML to include.' => 
 		'Bruk et XPath-uttrykk for å velge hvilke elementer fra XML-kilden som skal inkluderes.',
-
-		'Use compatibility mode' => 
-		'Bruk kompatibilitets-modus',
 
 		'User Information' => 
 		'Brukerinformasjon',
@@ -1163,6 +1355,15 @@
 
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
 		'Verktøyet kunne ikke skrives til fil. Vennligst sjekk fil-rettighetene for <code>/workspace/utilities</code>.',
+
+		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Verktøyet ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle verktøy</a>',
+
+		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
+		'Verktøyet ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle verktøy</a>',
+
+		'Validation Rule' => 
+		'Valideringsregel',
 
 		'Value' => 
 		'Verdi',
@@ -1230,8 +1431,14 @@
 		'You are not authorised to access this page.' => 
 		'Du har ikke tilgang til denne siden.',
 
+		'You are not authorised to edit other authors.' => 
+		'Du har ikke rettigheter til å redigere andre forfattere.',
+
 		'You are not using the most recent version of Symphony. This update is only compatible with Symphony 2.' => 
 		'Du bruker ikke den nyeste versjonen av Symphony. Denne oppdateringen er kun kompatibel med Symphony 2.',
+
+		'You cannot remove yourself as you are the active Author.' => 
+		'Du kan ikke slette deg selv ettersom du er den aktive forfatteren.',
 
 		'You must enter a Password. This will be your Symphony login information.' => 
 		'Du må fylle inn et passord. Dette vil være din innloggingsinformasjon for Symphony.',
@@ -1241,6 +1448,9 @@
 
 		'You must enter your name.' => 
 		'Du må fylle inn ditt navn.',
+
+		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
+		'Din Symphony-installasjon er helt oppdatert, men et oppdateringsskript ble oppdaget. Av sikkerhetshensyn bør det slettes. <a href="%s/update.php?action=remove">Slett oppdateringsskriptet</a>',
 
 		'ZLib Compression Library' => 
 		'ZLib komprimeringsbibliotek',
@@ -1257,6 +1467,9 @@
 		'about {$hours} hours ago' => 
 		'ca. {$hours} timer siden',
 
+		'appendHeaderField accepts strings only; arrays are not allowed.' => 
+		'appendHeaderField aksepterer kun tekststrenger; lister er ikke tillatt.',
+
 		'ascending' => 
 		'stigende',
 
@@ -1269,320 +1482,250 @@
 		'just now' => 
 		'nettopp',
 
-		'random' => 
-		'tilfeldig',
-
-		'released on' => 
-		'utgitt den',
-
-		'{$minutes} minutes ago' => 
-		'{$minutes} minutter siden',
-
-		'Expand all' => 
-		'Ekspander alle',
-
-		'Collapse all' => 
-		'Klapp sammen alle',
-
-		'Data source updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Datakilden ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle datakilder</a>',
-
-		'Data source created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Data sources</a>' => 
-		'Datakilden ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle datakilder</a>',
-
-		'%s Paginate results, limiting to %s entries per page. Return page %s' => 
-		'%s Fordel resultater over flere sider med inntil %s oppføringer per side. Returner side %s',
-
-		'Failing to paginate may degrade performance if the number of entries returned is very high.' => 
-		'Om resultater ikke fordeles over flere sider kan det gå utover ytelsen hvis antallet oppføringer er svært høyt.',
-
-		'Required URL Parameter' => 
-		'Påkrevd URL-parameter',
-
-		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
-		'Parameteren <code id="output-param-name">$ds-%s</code> vil bli opprettet med det valgte feltets verdi til bruk i XSLT og andre datakilder.',
-
-		'Namespace Declarations' => 
-		'Deklarasjoner av navnerom',
-
-		'Event updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Hendelsen ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle hendelser</a>',
-
-		'Event created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Events</a>' => 
-		'Hendelsen ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle hendelser</a>',
-
-		'Filter Options' => 
-		'Filtervalg',
-
-		'Send Notification Email' => 
-		'Send e-post med varsel',
-
-		'The following is an example of what is returned if any options return an error:' => 
-		'Følgende er et eksempel på hva som returneres hvis noen av valgene gir en feilmelding:',
-
-		'Upon the event successfully saving the entry, this option takes input from the form and send an email to the desired recipient. <b>It currently does not work with "Allow Multiple".</b> The following are the recognised fields:' => 
-		'Ved vellykket lagring av oppføringen under hendelsen vil dette valget sende en e-post med data fra skjemaet til den ønskede mottakeren. <b>Fungerer ikke med "Tillat flere" per nå.</b> Følgende felt blir gjenkjent:',
-
 		'list of comma-separated author usernames.' => 
 		'liste med brukernavn på forfattere adskilt med komma',
-
-		'Page updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Siden ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle sider</a>',
-
-		'Page created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Pages</a>' => 
-		'Siden ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle sider</a>',
-
-		'Set navigation group' => 
-		'Sett navigasjonsgruppe',
-
-		'%s Hide this section from the back-end menu' => 
-		'%s Skjul denne seksjonen fra menyen i admin',
-
-		'Section updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Seksjonen ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle seksjoner</a>',
-
-		'Section created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Sections</a>' => 
-		'Seksjonen ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle seksjoner</a>',
-
-		'Utility updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Verktøyet ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle verktøy</a>',
-
-		'Utility created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Utilities</a>' => 
-		'Verktøyet ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle verktøy</a>',
-
-		'As requested, here is your new Symphony Author Password for ' => 
-		'Som forespurt, her er ditt nye Symphony forfatter-passord for ',
-
-		'Password reset. Check your email' => 
-		'Passordet ble nullstilt. Sjekk din e-post',
-
-		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		'Det ser ut som du forsøker opprette et nytt innlegg. Kanskje du ønsker opprette felt først? <a href="%s">Klikk her for å opprette noen.</a>',
-
-		'Entry updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Innlegget ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle innlegg</a>',
-
-		'Entry created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Entries</a>' => 
-		'Innlegget ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette et nytt?</a> <a href="%3$s" accesskey="a">Vis alle innlegg</a>',
-
-		'Author updated at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Forfatteren ble oppdatert %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle forfattere</a>',
-
-		'Author created at %1$s. <a href="%2$s" accesskey="c">Create another?</a> <a href="%3$s" accesskey="a">View all Authors</a>' => 
-		'Forfatteren ble opprettet %1$s. <a href="%2$s" accesskey="c">Opprette en ny?</a> <a href="%3$s" accesskey="a">Vis alle forfattere</a>',
-
-		'Author not found' => 
-		'Forfatteren ble ikke funnet',
-
-		'The author profile you requested does not exist.' => 
-		'Forfatterprofilen du forespurte eksisterer ikke.',
-
-		'You are not authorised to edit other authors.' => 
-		'Du har ikke rettigheter til å redigere andre forfattere.',
-
-		'Default Area' => 
-		'Standard område',
-
-		'You cannot remove yourself as you are the active Author.' => 
-		'Du kan ikke slette deg selv ettersom du er den aktive forfatteren.',
-
-		'Installed Version' => 
-		'Installert versjon',
-
-		'Not Installed' => 
-		'Ikke installert',
-
-		'Disabled' => 
-		'Deaktivert',
-
-		'Enable to install %s' => 
-		'Aktiver for å installere %s',
-
-		'Enable to update to %s' => 
-		'Aktiver for å oppdatere til %s',
-
-		'Email Gateway' => 
-		false,
-
-		'The Symphony core will use the selected gateway to send emails. More gateways can be installed using extensions, and any gateway may be used by custom events or extensions.' => 
-		false,
-
-		'Run the updater to update Symphony to %s. <a href="%s">View Update</a>' => 
-		'Kjører oppdatereren for å oppdatere Symphony til %s. <a href="%s">Vis oppdateringen</a>',
-
-		'Your Symphony installation is up to date, but an updater script was still detected. For security reasons, it should be removed. <a href="%s/update.php?action=remove">Remove Update Script</a>' => 
-		'Din Symphony-installasjon er helt oppdatert, men et oppdateringsskript ble oppdaget. Av sikkerhetshensyn bør det slettes. <a href="%s/update.php?action=remove">Slett oppdateringsskriptet</a>',
-
-		'An updater script has been found in your installation. <a href="%s">View Update</a>' => 
-		'Et oppdateringsskript har blitt funnet i din installasjon. <a href="%s">Vis oppdateringen</a>',
-
-		'An extension requires updating. <a href="%s">View Extensions</a>' => 
-		'Et tillegg trenger en oppdatering. <a href="%s">Vis tillegg</a>',
-
-		'Cannot request a page callback without first specifying the page.' => 
-		false,
-
-		'Invalid timezone \'{$timezone}\'' => 
-		'Ugyldig tidssone \'{$timezone}\'',
-
-		'There was a problem whilst attempting to establish a database connection. Please check all connection information is correct. The following error was returned.' => 
-		'Det oppstod et problem ved forsøk på å koble til databasen. Vennligst kontroller at alle detaljer for tilkobling er korrekte. Følgende feilmelding ble returnert.',
-
-		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Datakilden du etterspurte, <code>%s</code>, ble ikke funnet. Om datakilden ble understøttet av et tillegg, sørg for at dette er installert og aktivert.',
-
-		'Email Gateway Error' => 
-		false,
-
-		'Sender Email Address can not contain carriage return or newlines.' => 
-		'Avsenderadressen kan ikke inneholde linjeskift.',
-
-		'%s is not a supported encoding type. Please use "quoted-printable" or "base64". You can also use false for no encoding.' => 
-		'%s er ikke en støttet type enkoding. Vennligst bruk «quoted-printable» eller «base64». Du kan også bruke «false» for ingen enkoding.',
-
-		'Reply-To Email Address can not contain carriage return or newlines.' => 
-		'Svaradressen kan ikke inneholde linjeskift.',
-
-		'Reply-To Name can not contain carriage return or newlines.' => 
-		'Svarnavn kan ikke inneholde linjeskift.',
-
-		'appendHeaderField accepts strings only; arrays are not allowed.' => 
-		'appendHeaderField aksepterer kun tekststrenger; lister er ikke tillatt.',
-
-		'Email subject cannot be empty.' => 
-		'E-postemnet kan ikke være tomt.',
-
-		'Sender email address cannot be empty.' => 
-		'Avsenderadressen kan ikke være tom.',
-
-		'Recipient email address cannot be empty.' => 
-		'Mottakeradressen kan ikke være tom.',
-
-		'The email address "%s" is invalid.' => 
-		'E-postadressen «%s» er ugyldig.',
-
-		'No attachments or body text was set. Can not send empty email.' => 
-		'Ingen vedlegge eller innholdstekst var satt. Kan ikke sende en tom e-post.',
-
-		'The %s gateway does not support the use of %s' => 
-		false,
-
-		'This gateway can not be found. Can not save as default.' => 
-		false,
-
-		'Could not find Email Gateway <code>%s</code>. If the Email Gateway was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		false,
-
-		'This event has been customised and cannot be viewed from Symphony.' => 
-		'Denne hendelsen har blitt tilpasset og kan ikke vises inne i Symphony.',
-
-		'Could not find Event <code>%s</code>. If the Event was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Hendelsen du etterspurte, <code>%s</code>, ble ikke funnet. Om hendelsen er understøttet av et tillegg, sørg for at dette er installert og aktivert.',
-
-		'Validation Rule' => 
-		'Valideringsregel',
-
-		'%s Display field’s value in entries table' => 
-		'%s Vis feltets verdi i opplisting av innlegg',
-
-		'%s Display relationship in linked sections' => 
-		'%s Vis relasjonen i tilknyttede seksjoner',
-
-		'The page you requested does not exist' => 
-		'Siden du forespurte eksisterer ikke',
-
-		'The selected language could not be found. Using default English dictionary instead.' => 
-		'Det valgte språket ble ikke funnet. Bruker standard engelsk ordbok i stedet.',
-
-		'Unsupported SSL type' => 
-		'SSL-typen er ikke støttet',
-
-		'No connection has been established to %s' => 
-		'Ingen tilkobling ble opprettet mot %S',
-
-		'Header fields can only contain strings' => 
-		false,
-
-		'Can not call HELO on existing session' => 
-		'Kan ikke sende HELO i den eksisterende økten',
-
-		'Must call EHLO (or HELO) before calling MAIL' => 
-		'Må sende EHLO (eller HELO) før MAIL blir sendt',
-
-		'Only one call to MAIL may be made at a time.' => 
-		'Kan kun sende én MAIL om gangen.',
-
-		'Must call MAIL before calling RCPT' => 
-		'Må sende MAIL før RCPT',
-
-		'Must call RCPT before calling DATA' => 
-		'Må sende RCPT før DATA',
-
-		'Must call EHLO (or HELO) before calling AUTH' => 
-		'Må sende EHLO (eller HELO) før AUTH sendes',
-
-		'Can not call AUTH again.' => 
-		'Kan ikke sende AUTH igjen.',
-
-		'Unable to connect via TLS' => 
-		'Kan ikke koble til med TLS',
-
-		'Could not send request: %s' => 
-		'Klarte ikke sende forespørselen: %s',
-
-		'%s has timed out' => 
-		'%s har endt med tidsavbrudd',
-
-		'Could not read from %s' => 
-		'Klarte ikke lese fra %s',
-
-		'Unable to open socket. Unknown error' => 
-		false,
-
-		'Unable to open socket. %s' => 
-		false,
-
-		'Unable to set timeout.' => 
-		'Klarte ikke sett tidsavbrudd.',
-
-		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extension, ensure that it is installed, and enabled.' => 
-		'Tekstformatereren du etterspurte, <code>%s</code>, ble ikke funnet. Om tekstformatereren er understøttet av et tillegg, sørg for at dette er installert og aktivert.',
-
-		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
-		'Ingen <code>/symphony</code>-mappe ble funnet. Vennligst last opp innholdet i Symphonys installeringspakke.',
 
 		'no leading zeros' => 
 		'ingen ledende nullsiffer',
 
-		'Symphony is also available in other languages' => 
-		'Symphony er også tilgjengelig på andre språk',
+		'random' => 
+		'tilfeldig',
 
-		'Email: Sendmail' => 
-		'E-post: Sendmail',
+		'{$minutes} minutes ago' => 
+		'{$minutes} minutter siden',
 
-		'The following default settings will be used to send emails unless they are overwritten.' => 
-		'Følgende standardinnstillinger vil bli brukt for å sende e-poster med mindre de blir overstyrt.',
-
-		'Email: SMTP' => 
-		'E-post: SMTP',
-
-		'Long Description' => 
-		'Utvidet beskrivelse',
+		// Obsolete
 
 		'%s Pre-populate this field with today\'s date' => 
 		'%s Forhåndsutfyll dette feltet med dagens dato',
 
-		'Predefined Values' => 
-		'Forhåndsdefinerte verdier',
+		'Are you sure you want to {$action} {$count} items?' => 
+		'Er du sikker på at du ønsker å {$action} {$count}?',
 
-		'Dynamic Values' => 
-		'Dynamiske verdier',
+		'Are you sure you want to {$action} {$name}?' => 
+		'Er du sikker på at du ønsker å {$action} {$name}?',
+
+		'Are you sure you want to {$action}?' => 
+		'Er du sikker på at du ønsker å {$action}?',
 
 		'Available when using Dynamic Options' => 
 		'Tilgjengelig ved bruk av dynamiske tilvalg',
 
-		'The file uploaded is no longer available. Please check that it exists, and is readable.' => 
-		'Filen som ble lastet opp er ikke lenger tilgjengelig. Vennligst kontroller at den eksister og er mulig å lese.',
+		'Dear <!-- RECIPIENT NAME -->,' => 
+		'Kjære <!-- RECIPIENT NAME -->,',
+
+		'Enable' => 
+		'Aktiver',
+
+		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
+		'Det ser ut som du forsøker opprette et nytt innlegg. Kanskje du ønsker opprette felt først? <a href="%s">Klikk her for å opprette noen.</a>',
+
+		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
+		'Det virker som du forsøker opprette et innlegg. Kanskje du ønsker opprette felt først? <a href="%s">Klikk her for å opprette felt</a>.',
+
+		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
+		'Ingen <code>/symphony</code>-mappe ble funnet. Vennligst last opp innholdet i Symphonys installeringspakke.',
+
+		'No valid recipients found. Check send-email[recipient] field.' => 
+		'Ingen gyldige mottakere ble funnet. Kontroller send-email[recipient]-feltet.',
+
+		'Recipient username was invalid' => 
+		'Brukernavn for mottaker er ugyldig',
+
+		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
+		'Symphony bruker vanligvis UTF-8-tegnsettet for databaseoppføringer. Med kompatibilitets-modus aktivert vil Symphony bruke standard tegnsett for databasen i stedet.',
+
+		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
+		'Symphony krever <code>MySQL 4.1</code> eller nyere, men kun versjon <code>%s</code> ble funnet. Installasjonen kan ikke fortsette før dette kravet er oppfylt.',
+
+		'The following default settings will be used to send emails unless they are overwritten.' => 
+		'Følgende standardinnstillinger vil bli brukt for å sende e-poster med mindre de blir overstyrt.',
+
+		'The page you requested does not exist' => 
+		'Siden du forespurte eksisterer ikke',
+
+		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
+		'Parameteren <code id="output-param-name">$ds-%s</code> vil bli opprettet med det valgte feltets verdi til bruk i XSLT og andre datakilder.',
+
+		'This is a courtesy email to notify you that an entry was created on the %1$s section. You can edit the entry by going to: %2$s' => 
+		'Dette er en e-post for å informere deg om at et innlegg ble opprettet i %1$s-seksjonen. Du kan redigere dette innlegget ved å gå til: %2$s',
+
+		'Use compatibility mode' => 
+		'Bruk kompatibilitets-modus',
+
+		'released on' => 
+		'utgitt den',
+
+		'Are you sure you want to proceed?' => 
+		'Er du sikker på at du ønsker å fortsette?',
+
+		'All selected' => 
+		'Alle markerte',
+
+		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
+		'Parameteren <code id="output-param-name">$ds-%s</code> vil bli opprettet med dette feltets verdi til bruk i XSLT og i andre datakilder.',
+
+		'Are you sure you want to delete this data source?' => 
+		'Er du sikker på at du ønsker å slette denne datakilden?',
+
+		'%s released on %s' => 
+		'%s lansert den %s',
+
+		'Created by %s at %s' => 
+		'Opprettet av %s den %s',
+
+		'Please ensure name contains at least one Latin-based alphabet.' => 
+		'Vennligst sørg for at navnet inneholder minst ett latinsk alfabet.',
+
+		'Are you sure you want to delete this event?' => 
+		'Er du sikker på at du ønsker å slette denne hendelsen?',
+
+		'Recipient not found' => 
+		'Mottakeren ble ikke funnet',
+
+		'Are you sure you want to delete the selected pages?' => 
+		'Er du sikker på at du ønsker å slette de markerte sidene?',
+
+		'Are you sure you want to delete this page?' => 
+		'Er du sikker på at du ønsker å slette denne siden?',
+
+		'Page Template could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
+		'Sidemalen kunne skrives til fil. Vennligst sjekk fil-rettighetene for <code>/workspace/pages</code>.',
+
+		'Please ensure handle contains at least one Latin-based alphabet.' => 
+		'Vennligst sørge for at nøkkelen inneholder minst ett latinsk alfabet.',
+
+		'Are you sure you want to delete the selected sections?' => 
+		'Er du sikker på at du ønsker å slette de markerte seksjonene?',
+
+		'Are you sure you want to delete all entries in the selected sections?' => 
+		'Er du sikker på at du ønsker å slette alle innlegg i de markerte seksjonene?',
+
+		'Content' => 
+		'Innhold',
+
+		'Are you sure you want to delete this section?' => 
+		'Er du sikker på at du ønsker å slette denne seksjonen?',
+
+		'Are you sure you want to delete this Utility?' => 
+		'Er du sikker på at du ønsker å slette dette verktøyet?',
+
+		'Are you sure you want to delete the selected entries?' => 
+		'Er du sikker på at du ønsker å slette de markerte innleggene?',
+
+		'It looks like you\'re trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
+		'Det ser ut som du forsøker å opprette et innlegg. Kanskje du ønsker noen felter først? <a href="%">Klikk her for å opprette noen.</a>',
+
+		'Are you sure you want to delete this entry?' => 
+		'Er du sikker på at du ønsker å slette dette innlegget?',
+
+		'Email this author' => 
+		'Send e-post til denne forfatteren',
+
+		'Are you sure you want to delete the selected authors?' => 
+		'Er du sikker på at du ønsker å slette de markerte forfatterene?',
+
+		'Sections Index' => 
+		'Oversikt over seksjoner',
+
+		'Are you sure you want to delete this author?' => 
+		'Er du sikker på at du ønsker å slette denne forfatteren?',
+
+		'Enable/Install' => 
+		'Aktiver/innstaller',
+
+		'Are you sure you want to uninstall the selected extensions?' => 
+		'Er du sikker på at du ønsker å avinstallere de markerte tilleggene?',
+
+		'Default Email Settings' => 
+		'Standard e-postinnstillinger',
+
+		'Gateway' => 
+		'Transportør',
+
+		'Cannot request a page callback without first specifying the page.' => 
+		'Kan ikke sende forespørsel til et tilbakekall for en side uten at siden er angitt først.',
+
+		'The page you requested, %s, does not exist.' => 
+		'Siden du forespurte, %s, eksisterer ikke.',
+
+		'Email Gateway Error' => 
+		'Feil fra e-posttransportør',
+
+		'Sender Name can not contain carriage return or newlines.' => 
+		'Avsendernavn kan ikke inneholde linjeskift.',
+
+		'The %s gateway does not support the use of %s' => 
+		'Transportøren %s støtter ikke bruk av %s',
+
+		'This gateway can not be found. Can not save as default.' => 
+		'Denne transportøren ble ikke funnet. Kan ikke lagres som standard.',
+
+		'Could not find Email Gateway <code>%s</code>. If the Email Gateway was provided by an Extensions, ensure that it is installed, and enabled.' => 
+		'Klarte ikke finne e-posttransportøren <code>%s</code>. Om denne e-posttransportøren følger med i et tillegg sørg for at dette er installert og aktivert.',
+
+		'Header fields can only contain strings' => 
+		'Felt i e-posthodet kan kun inneholde tekststrenger',
+
+		'Unable to open socket. Unknown error' => 
+		'Kunne ikke åpne tilkobling. Ukjent feil',
+
+		'Unable to open socket. %s' => 
+		'Kunne ikke åpne tilkobling. %s',
+
+		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
+		'Ingen <code>/symphony</code>-mappe ble funnet på dette stedet. Vennligst last opp innholdet av Symphonys installasjonspakke her.',
+
+		'Symphony requires <code>MySQL 5.0</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
+		'Symphony krever <code>MySQL 5.0</code> eller nyere for å fungere, men kun versjon <code>%s</code> ble funnet. Dette kravet må oppfylles for at installasjonen skal fortsette.',
+
+		'Always use <code>UTF-8</code> encoding' => 
+		'Bruk alltid <code>UTF-8</code>-encoding',
+
+		'If unchecked, Symphony will use your database\'s default encoding instead of <code>UTF-8</code>.' => 
+		'Om dette ikke er avkrysset vil Symphony bruke standardenkodingen til din database i stedet for <code>UTF-8</code>.',
+
+		'XML is invalid.' => 
+		'XML-en er ugyldig.',
+
+		'Sendmail (default)' => 
+		'Sendmail (standard)',
+
+		'From Name' => 
+		'Avsendernavn',
+
+		'From Email Address' => 
+		'Avsenderadresse',
+
+		'SMTP' => 
+		'SMTP',
+
+		'No encryption' => 
+		'Ingen kryptering',
+
+		'SSL encryption' => 
+		'SSL-kryptering',
+
+		'TLS encryption' => 
+		'TLS-kryptering',
+
+		'For a secure connection, SSL and TLS are supported. Please check the manual of your email provider for more details.' => 
+		'For en sikker tilkobling er SSL og TLS støttet. Vennligst sjekk dokumentasjonen fra din e-postleverandør for mer informasjon.',
+
+		'%s Requires authentication' => 
+		'%s Krever autentisering',
+
+		'Some SMTP connections require authentication. If that is the case, enter the username/password combination below.' => 
+		'Noen SMTP-tilkoblinger krever autentisering. Hvis dette er tilfellet for deg fyller du inn brukernavn/passord nedenfor.',
+
+		'%s Pre-populate this field with today’s date' => 
+		'%s Fyll inn dagens dato i dette feltet som standard',
+
+		'Available when using Dynamic Values' => 
+		'Tilgjengelig ved bruk av Dynamiske verdier',
+
+		'%s Sort all options alphabetically' => 
+		'%s Sorter alle valg alfabetisk',
 
 	);
 

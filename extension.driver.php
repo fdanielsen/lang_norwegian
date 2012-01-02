@@ -9,12 +9,12 @@
 			return array(
 				'name' => 'Language: Norsk bokmål',
 				'type' => 'Localisation',
-				'version' => '1.1a',
-				'release-date' => '2011-02-08',
+				'version' => '1.1',
+				'release-date' => '2012-01-02',
 				'author' => array(
 					'name' => 'Frode Danielsen',
-					'website' => 'http://frode.danielsen.net/',
-					'email' => 'frode@danielsen.net'
+					'website' => 'http://e5r.no/',
+					'email' => 'frode@e5r.no'
 				),
 				'description' => 'Official Norwegian translation for the Symphony backend',
 				'compatibility' => array(
