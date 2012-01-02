@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="lang_norwegian" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Language: Norwegian</name>
+	<description>Norwegian translation for Symphony</description>
+	<repo type="github">https://github.com/fdanielsen/lang_norwegian</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/61189/</url>
+	<types>
+		<type>Translations</type>
+	</types>
+	<authors>
+		<author>
+			<name github="fdanielsen" twitter="fdanielsen" symphony="froded">Frode Danielsen</name>
+			<email>frode@e5r.no</email>
+			<website>http://e5r.no/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0" date="2011-02-08" min="2.0.7" />
+		<release version="1.1" date="2012-01-02" min="2.2.5" />
+	</releases>
+</extension>
